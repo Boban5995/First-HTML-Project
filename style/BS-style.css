@@ -1,0 +1,46 @@
+nav ul li a{
+	color: orange;
+	
+}.formB{
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 25px;
+}
+
+div.hero123{
+	background-image: url("../images/hero.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	padding-top: 150px;
+	margin-bottom: 100px;
+
+
+}
+
+div.trans img{
+	transition: 2s ease;
+}
+
+div.trans img:hover {
+	transform: scale(1.25);
+	transition: 2s ease;
+}
+
+div.bgFixedImg{
+	background-image: url("../images/shipping.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	height: 200px;
+	margin-top: 100px;
+	padding-top: 80px;
+	margin-bottom: 100px;
+
+}
+.bobi{
+	height: 160px;
+}
